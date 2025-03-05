@@ -1,5 +1,5 @@
-import google from './google.png';
+import google from './google.png'
 
 export const assets = {
-    google
-};
+  google,
+}
