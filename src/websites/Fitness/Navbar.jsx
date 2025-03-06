@@ -1,17 +1,18 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 text-white p-4 flex justify-between">
-      <h1 className="text-xl font-bold">Website 1</h1>
+    <nav className="bg-black text-white p-4 flex justify-between items-center">
+      <img src={assets.fitness_logo} alt="Fitness Logo" className="h-10" />
       <div className="space-x-4">
-        <Link to="/website1">Home</Link>
-        <Link to="/website1/services">Services</Link>
-        <Link to="/website1/review">Review</Link>
-        <Link to="/website1/contact">Contact</Link>
+        <Link to="/fitness">Home</Link>
+        <Link to="/fitness/services">Services</Link>
+        <Link to="/fitness/review">Review</Link>
+        <Link to="/fitness/contact">Contact</Link>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
