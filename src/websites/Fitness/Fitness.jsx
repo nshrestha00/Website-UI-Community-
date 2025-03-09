@@ -10,7 +10,7 @@ function Fitness() {
     <>
       <Navbar />
       <Home />
-      <About />
+      {/* <About /> */}
       <Services />
       <Review />
       <Contact />

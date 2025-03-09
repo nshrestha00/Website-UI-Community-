@@ -9,6 +9,7 @@ import aerobics from './aerobics.png';
 import freeWeights from './freeWeights.png';
 import before from './before.png';
 import after from './after.png';
+import star from './star.png';
 
 export const assets = {
   fitness_logo,
@@ -16,6 +17,7 @@ export const assets = {
   p2,
   before,
   after,
+  star
 };
 
 export const services = [
