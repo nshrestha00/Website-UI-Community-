@@ -22,6 +22,7 @@ import t3 from './t3.png';
 import t4 from './t4.png';
 import t5 from './t5.png';
 import t6 from './t6.png';
+import playbutton from './playbutton.png';
 
 export const assets = {
   fitness_logo,
@@ -29,7 +30,8 @@ export const assets = {
   p2,
   before,
   after,
-  star
+  star,
+  playbutton,
 };
 
 export const services = [

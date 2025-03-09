@@ -20,7 +20,8 @@ const Home = () => {
             </button>
             <button className="flex items-center gap-2 text-white">
               <div className="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full">
-                <i className="fas fa-play"></i>
+                {/* <i className="fas fa-play"></i> */}
+                <img src={assets.playbutton} alt="Play Button" />
               </div>
               Watch Video
             </button>
@@ -46,7 +47,7 @@ const Home = () => {
         {/* Right Section - Image */}
         <div className="flex justify-center">
           <img
-            src={assets.p1}
+            src={assets.p2}
             alt="Fitness Model"
             className="w-full max-w-md lg:max-w-lg rounded-lg shadow-lg"
           />
