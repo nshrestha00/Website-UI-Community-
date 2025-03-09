@@ -1,30 +1,46 @@
-import { services } from "../../assets/assets";
+import { facilitiesData, trainers } from "../../assets/assets";
 
 const Services = () => {
   return (
     <section className="bg-black text-white py-16 px-8">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h2 className="text-yellow-400 text-lg font-bold">Services</h2>
-          <h1 className="text-4xl font-bold mt-2">
-            We provide service that fits the best for you.
-          </h1>
-          <p className="mt-4 text-gray-300">
-            Strive for greatness with the best, around the best, and in the best
-            fitness environment available in the city.
-          </p>
-          <button className="mt-6 bg-white text-black px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-200">
-            See All
-          </button>
+      <div className="max-w-6xl mx-auto text-center">
+        {/* Facilities Section */}
+        <h2 className="text-3xl font-semibold mb-10">
+          Our <span className="text-yellow-400">facilities</span>
+        </h2>
+
+        {/* Facilities Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {facilitiesData.map((facility, index) => (
+            <div key={index} className="flex items-center space-x-4">
+              <img
+                src={facility.image}
+                alt={facility.title}
+                className="w-24 h-24 object-cover rounded-lg shadow-lg"
+              />
+              <div className="text-left">
+                <h3 className="text-lg font-semibold">{facility.title}</h3>
+                <p className="text-gray-300 text-sm">{facility.description}</p>
+              </div>
+            </div>
+          ))}
         </div>
 
-        <div className="grid grid-cols-3 gap-6 text-center">
-          {services.map((service, index) => (
+        {/* Trainers Section */}
+        <h2 className="text-3xl font-semibold mt-16 mb-10">
+          Meet Our <span className="text-yellow-400">Trainers</span>
+        </h2>
+
+        {/* Trainers Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-center">
+          {trainers.map((trainer, index) => (
             <div key={index} className="flex flex-col items-center">
-              <div className="p-6 rounded-full bg-gray-800 shadow-lg flex items-center justify-center">
-                <img src={service.icon} alt={service.name} className="w-16 h-16 object-contain" />
-              </div>
-              <p className="mt-2 text-lg">{service.name}</p>
+              <img
+                src={trainer.image}
+                alt={trainer.name}
+                className="w-32 h-32 object-cover rounded-full shadow-lg"
+              />
+              <h3 className="mt-2 text-lg font-semibold">{trainer.name}</h3>
             </div>
           ))}
         </div>

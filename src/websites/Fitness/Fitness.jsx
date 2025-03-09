@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 import Services from './Services'
 import Review from './Review'
 import Contact from './Contact'
-import Facilities from './Facilities'
 
 function Fitness() {
   return (
