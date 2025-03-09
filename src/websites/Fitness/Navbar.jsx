@@ -8,8 +8,8 @@ const Navbar = () => {
       <div className="space-x-4">
         <Link to="/fitness">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/fitness/services">Services</Link>
         <Link to="/fitness/review">Review</Link>
+        <Link to="/fitness/services">Services</Link>
         <Link to="/fitness/contact">Contact</Link>
       </div>
     </nav>
