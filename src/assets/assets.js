@@ -28,6 +28,9 @@ import youtube from './youtube.png';
 import instagram from './instagram.png';
 
 import bakery_logo from './bakery_logo.png';
+import breadMaking from './breadMaking.png';
+import dessert from './dessert.png';
+import croissantCoffee from './croissantCoffee.png';
 
 export const assets = {
   fitness_logo,
@@ -42,6 +45,9 @@ export const assets = {
   instagram,
 
   bakery_logo,
+  breadMaking,
+  dessert,
+  croissantCoffee,
 };
 
 export const services = [
