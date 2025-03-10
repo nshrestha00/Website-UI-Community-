@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Services from './Services'
 import Review from './Review'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function Fitness() {
   return (
@@ -14,6 +15,7 @@ function Fitness() {
       <Review />
       <Services />
       <Contact />
+      <Footer/>
     </>
   )
 }

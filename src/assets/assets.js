@@ -23,6 +23,9 @@ import t4 from './t4.png';
 import t5 from './t5.png';
 import t6 from './t6.png';
 import playbutton from './playbutton.png';
+import facebook from './facebook.png';
+import youtube from './youtube.png';
+import instagram from './instagram.png';
 
 export const assets = {
   fitness_logo,
@@ -32,6 +35,9 @@ export const assets = {
   after,
   star,
   playbutton,
+  facebook,
+  youtube,
+  instagram,
 };
 
 export const services = [
