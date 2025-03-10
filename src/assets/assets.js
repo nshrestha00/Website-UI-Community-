@@ -27,6 +27,8 @@ import facebook from './facebook.png';
 import youtube from './youtube.png';
 import instagram from './instagram.png';
 
+import bakery_logo from './bakery_logo.png';
+
 export const assets = {
   fitness_logo,
   p1,
@@ -38,6 +40,8 @@ export const assets = {
   facebook,
   youtube,
   instagram,
+
+  bakery_logo,
 };
 
 export const services = [
