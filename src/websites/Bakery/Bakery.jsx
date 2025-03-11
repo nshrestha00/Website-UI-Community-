@@ -1,5 +1,5 @@
 import About from "./About"
-import Contact from "./Contact"
+import Footer from "./Footer"
 import Home from "./Home"
 import Menu from "./Menu"
 import Navbar from "./Navbar"
@@ -11,7 +11,7 @@ const Bakery = () => {
     <Home/>
     <Menu/>
     <About/>
-    <Contact/>
+    <Footer/>
     </>
   )
 }

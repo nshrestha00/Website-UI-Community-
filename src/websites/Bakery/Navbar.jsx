@@ -8,7 +8,6 @@ const Navbar = () => {
         <a href="#bakery-home" className="cursor-pointer">Home</a>
         <a href="#bakery-menu" className="cursor-pointer">Menu</a>
         <a href="#bakery-about" className="cursor-pointer">About</a>
-        <a href="#bakery-contact" className="cursor-pointer">Contact</a>
       </div>
     </nav>
   );
