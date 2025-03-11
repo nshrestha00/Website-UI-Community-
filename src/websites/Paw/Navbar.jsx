@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets';
 const Navbar = () => {
   return (
     <nav className="text-black p-4 flex justify-between items-center sticky top-0 z-40">
-      <img src={assets.paw_logo} alt="Paw Logo" className="h-30" />
+      <img src={assets.paw_logo} alt="Paw Logo" className="h-15" />
       <div className="space-x-4">
         <a href="#paw-home" className="cursor-pointer">Home</a>
         <a href="#paw-menu" className="cursor-pointer">Breed</a>
