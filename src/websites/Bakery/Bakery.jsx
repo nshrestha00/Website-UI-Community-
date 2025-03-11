@@ -9,8 +9,8 @@ const Bakery = () => {
     <>
     <Navbar/>
     <Home/>
-    <About/>
     <Menu/>
+    <About/>
     <Contact/>
     </>
   )

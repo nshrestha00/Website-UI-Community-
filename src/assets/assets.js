@@ -37,6 +37,8 @@ import macaron from './macaron.png';
 import pretzel from './pretzel.png';
 import cupcake from './cupcake.png';
 import cake from './cake.png';
+import b1 from './b1.png';
+import girl from './girl.png';
 
 export const assets = {
   fitness_logo,
@@ -54,6 +56,8 @@ export const assets = {
   breadMaking,
   dessert,
   croissantCoffee,
+  b1,
+  girl,
 };
 
 export const services = [

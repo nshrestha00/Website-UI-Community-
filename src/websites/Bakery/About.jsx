@@ -1,27 +1,20 @@
-import { items } from "../../assets/assets";
+import { assets } from "../../assets/assets";
 
 const About = () => {
   return (
-    <div id="bakery-about" className="p-16 bg-cream mt-16">
-    <h2 className="text-3xl font-bold text-center mb-4">What we offer</h2>
-    <p className="text-center text-black-500 text-base mb-8 max-w-xl mx-auto">
-        Introducing you a wide variety of bakery items with unique taste and the creamiest of cakes in the city.
-      </p>
-    <div className="flex justify-center space-x-20">
-      {items.map((item) => (
-        <div key={item.name} className="flex flex-col items-center">
-          <img 
-            src={item.image} 
-            alt={item.name} 
-            className="w-28 h-40 rounded-full object-cover mb-2" 
-          />
-          <span className="text-lg font-medium">{item.name}</span>
+    <div className="p-16 bg-cream mt-16">
+      <div className="flex items-center gap-16">
+        <img src={assets.b1} alt="Grandma's Bakery" className="w-1/2 h-auto rounded-xl object-cover" />
+        <div>
+          <h2 className="text-3xl font-bold mb-4">About Grandma’s Bakery</h2>
+          <p className="text-gray-500 text-base mb-6 max-w-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, corrupti tenetur adipisci ratione eos, et labore perspiciatis quisquam nulla autem nisi, incidunt delectus!
+          </p>
+          <button className="bg-gray-800 text-white px-6 py-3 rounded-lg">Read More</button>
         </div>
-      ))}
+      </div>
     </div>
-  </div>
   );
 };
 
-
-export default About
+export default About;
