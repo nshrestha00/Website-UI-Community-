@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 
 const About = () => {
   return (
-    <div className="p-16 bg-cream mt-16">
+    <div id="bakery-about" className="p-16 bg-cream mt-16">
       <div className="flex items-center gap-16">
         <img src={assets.b1} alt="Grandma's Bakery" className="w-1/2 h-auto rounded-xl object-cover" />
         <div>
