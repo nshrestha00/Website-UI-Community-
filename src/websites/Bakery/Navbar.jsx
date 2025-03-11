@@ -1,15 +1,14 @@
-import { Link } from 'react-router-dom';
 import { assets } from '../../assets/assets';
 
 const Navbar = () => {
   return (
-    <nav className=" text-black p-4 flex justify-between items-center">
-      <img src={assets.bakery_logo} alt="Bakery Logo" className="h-20" />
+    <nav className="text-black p-4 flex justify-between items-center sticky top-0 z-40">
+      <img src={assets.bakery_logo} alt="Bakery Logo" className="h-10" />
       <div className="space-x-4">
-        <Link to="/bakery">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/bakery/menu">Menu</Link>
-        <Link to="/bakery/contact">Contact</Link>
+        <a href="#bakery-home" className="cursor-pointer">Home</a>
+        <a href="#bakery-about" className="cursor-pointer">About</a>
+        <a href="#bakery-menu" className="cursor-pointer">Menu</a>
+        <a href="#bakery-contact" className="cursor-pointer">Contact</a>
       </div>
     </nav>
   );

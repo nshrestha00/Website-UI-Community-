@@ -31,6 +31,12 @@ import bakery_logo from './bakery_logo.png';
 import breadMaking from './breadMaking.png';
 import dessert from './dessert.png';
 import croissantCoffee from './croissantCoffee.png';
+import bread from './bread.png';
+import cookies from './cookies.png';
+import macaron from './macaron.png';
+import pretzel from './pretzel.png';
+import cupcake from './cupcake.png';
+import cake from './cake.png';
 
 export const assets = {
   fitness_logo,
@@ -118,4 +124,14 @@ export const trainers = [
     name: "Santosh Lama",
   },
   
+];
+
+
+export const items=[
+  { name: 'Bread', image: bread },
+  { name: 'Cookies', image: cookies },
+  { name: 'Macaron', image: macaron },
+  { name: 'Pretzel', image: pretzel},
+  { name: 'Cupcake', image: cupcake},
+  { name: 'Cake', image: cake},
 ];

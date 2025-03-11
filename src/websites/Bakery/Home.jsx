@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 
 const Home = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-serif">
+    <div id="bakery-home" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-serif">
       <div className="text-center my-12 md:my-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl italic font-normal mb-10">
           Enjoy fresh items of our<br />Grandma&apos;s Recipe
