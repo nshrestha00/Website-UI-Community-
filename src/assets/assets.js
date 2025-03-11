@@ -51,6 +51,16 @@ import germanShepherd from './germanShepherd.png';
 import pug from './pug.png';
 import japaneseSpitz from './japaneseSpitz.png';
 import labrador from './labrador.png';
+import pro1 from './pro1.png';
+import pro2 from './pro2.png';
+import pro3 from './pro3.png';
+import pro4 from './pro4.png';
+import pro5 from './pro5.png';
+import pro6 from './pro6.png';
+import dog1 from './dog1.png';
+import dog2 from './dog2.png';
+import dog3 from './dog3.png';
+import dog4 from './dog4.png';
 
 export const assets = {
   fitness_logo,
@@ -74,7 +84,13 @@ export const assets = {
   right_arrow,
 
   paw_logo,
-  dog
+  dog,
+  pro1,
+  pro2,
+  pro3,
+  pro4,
+  pro5,
+  pro6,
 };
 
 export const services = [
@@ -165,4 +181,23 @@ export const breed=[
   {image:pug, name:'Pug'},
   {image:japaneseSpitz, name:'Japanese Spitz'},
   {image:labrador, name:'Labrador'},
+];
+
+export const blogData=[
+  {
+    image:dog4,
+    title:'Are you having trouble finding the right dog?',
+  },
+  {
+    image:dog2,
+    title:'Is your dog aggressive towards your kids?',
+  },
+  {
+    image:dog3,
+    title:'Looking for aomeone to train your dog?',
+  },
+  {
+    image:dog1,
+    title:'Choose your most stylish and durable products for your dog.',
+  },
 ];
