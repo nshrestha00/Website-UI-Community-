@@ -2,7 +2,7 @@ import { assets } from '../../assets/assets';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white p-4 flex justify-between items-center">
+    <nav className="bg-black text-white p-4 flex justify-between items-center sticky top-0 z-40">
       <img src={assets.fitness_logo} alt="Fitness Logo" className="h-10" />
       <div className="space-x-4">
         <a href="#fitness-home" className="cursor-pointer">Home</a>
