@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 
 const Contact = () => {
   return (
-    <div className="p-8 bg-orange-50 flex items-center justify-between text-center rounded-4xl max-w-6xl mx-auto">
+    <div id="paw-contact" className="p-8 bg-orange-50 flex items-center justify-between text-center rounded-4xl max-w-6xl mx-auto">
       {/* Image Section */}
       <div className="w-1/3 mr-35">
         <img
