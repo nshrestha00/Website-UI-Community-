@@ -39,6 +39,8 @@ import cupcake from './cupcake.png';
 import cake from './cake.png';
 import b1 from './b1.png';
 import girl from './girl.png';
+import left_arrow from './left_arrow.png';
+import right_arrow from './right_arrow.png';
 
 export const assets = {
   fitness_logo,
@@ -58,6 +60,8 @@ export const assets = {
   croissantCoffee,
   b1,
   girl,
+  left_arrow,
+  right_arrow,
 };
 
 export const services = [
