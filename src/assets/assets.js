@@ -42,6 +42,8 @@ import girl from './girl.png';
 import left_arrow from './left_arrow.png';
 import right_arrow from './right_arrow.png';
 
+import paw_logo from './paw_logo.png';
+
 export const assets = {
   fitness_logo,
   p1,
@@ -62,6 +64,8 @@ export const assets = {
   girl,
   left_arrow,
   right_arrow,
+
+  paw_logo,
 };
 
 export const services = [
