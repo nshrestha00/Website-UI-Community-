@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="mt-8 flex justify-center items-center border-t border-gray-700 pt-4 space-x-4">
       <div className="text-gray-500 text-sm">
-      Copyright &copy; 2021 Vyayamshala
+      Copyright &copy; 2021 Pawstore
       </div>
           <img src={assets.facebook} alt="Facebook" className="w-6 h-6" />
           <img src={assets.youtube} alt="YouTube" className="w-6 h-6" />
