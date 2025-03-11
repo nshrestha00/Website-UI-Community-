@@ -43,6 +43,7 @@ import left_arrow from './left_arrow.png';
 import right_arrow from './right_arrow.png';
 
 import paw_logo from './paw_logo.png';
+import dog from './dog.png';
 
 export const assets = {
   fitness_logo,
@@ -66,6 +67,7 @@ export const assets = {
   right_arrow,
 
   paw_logo,
+  dog
 };
 
 export const services = [
