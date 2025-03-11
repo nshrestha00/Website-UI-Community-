@@ -44,6 +44,13 @@ import right_arrow from './right_arrow.png';
 
 import paw_logo from './paw_logo.png';
 import dog from './dog.png';
+import goldenRetriever from './goldenRetriever.png';
+import siberianHusky from './siberianHusky.png';
+import pitbull from './pitbull.png';
+import germanShepherd from './germanShepherd.png';
+import pug from './pug.png';
+import japaneseSpitz from './japaneseSpitz.png';
+import labrador from './labrador.png';
 
 export const assets = {
   fitness_logo,
@@ -148,4 +155,14 @@ export const items=[
   { name: 'Pretzel', image: pretzel},
   { name: 'Cupcake', image: cupcake},
   { name: 'Cake', image: cake},
+];
+
+export const breed=[
+  {image:goldenRetriever, name:'Golden Retriever'}, 
+  {image:siberianHusky, name:'Siberian Husky'},
+  {image:pitbull, name:'Pitbull'},
+  {image:germanShepherd, name:'German Shepherd'},
+  {image:pug, name:'Pug'},
+  {image:japaneseSpitz, name:'Japanese Spitz'},
+  {image:labrador, name:'Labrador'},
 ];
