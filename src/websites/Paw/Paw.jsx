@@ -2,6 +2,7 @@ import Accessories from "./Accessories"
 import Blog from "./Blog"
 import Breed from "./Breed"
 import Contact from "./Contact"
+import Footer from "./Footer"
 import Home from "./Home"
 import Navbar from "./Navbar"
 
@@ -14,6 +15,7 @@ const Paw = () => {
         <Accessories/>
         <Blog/>
         <Contact/>
+        <Footer/>
     </>
   )
 }
