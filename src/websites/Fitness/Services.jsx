@@ -2,7 +2,7 @@ import { facilitiesData, trainers } from "../../assets/assets";
 
 const Services = () => {
   return (
-    <section className="bg-black text-white py-16 px-8">
+    <section id="fitness-services" className="bg-black text-white py-16 px-8">
       <div className="max-w-6xl mx-auto text-center">
         {/* Facilities Section */}
         <h2 className="text-3xl font-semibold mb-10">

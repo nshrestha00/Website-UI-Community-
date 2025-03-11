@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { assets } from '../../assets/assets';
 
 const Navbar = () => {
@@ -6,11 +5,11 @@ const Navbar = () => {
     <nav className="bg-black text-white p-4 flex justify-between items-center">
       <img src={assets.fitness_logo} alt="Fitness Logo" className="h-10" />
       <div className="space-x-4">
-        <Link to="/fitness">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/fitness/review">Review</Link>
-        <Link to="/fitness/services">Services</Link>
-        <Link to="/fitness/contact">Contact</Link>
+        <a href="#fitness-home" className="cursor-pointer">Home</a>
+        <a href="#fitness-about" className="cursor-pointer">About</a>
+        <a href="#fitness-review" className="cursor-pointer">Review</a>
+        <a href="#fitness-services" className="cursor-pointer">Services</a>
+        <a href="#fitness-contact" className="cursor-pointer">Contact</a>
       </div>
     </nav>
   );

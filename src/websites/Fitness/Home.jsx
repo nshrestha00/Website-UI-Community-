@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 
 const Home = () => {
   return (
-    <section className="bg-black text-white min-h-screen flex items-center justify-center px-6 lg:px-20">
+    <section id="fitness-home" className="bg-black text-white min-h-screen flex items-center justify-center px-6 lg:px-20">
       <div className="max-w-6xl grid lg:grid-cols-2 gap-8">
 
         {/* Left Section - Text & Buttons */}

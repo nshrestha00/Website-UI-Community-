@@ -5,7 +5,7 @@ const Home = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-serif">
       <div className="text-center my-12 md:my-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl italic font-normal mb-10">
-          Enjoy fresh items of our<br />Grandma's Recipe
+          Enjoy fresh items of our<br />Grandma&apos;s Recipe
         </h1>
         
         <button className="bg-gray-800 text-white px-10 py-3 text-xl hover:bg-gray-700 transition-colors">

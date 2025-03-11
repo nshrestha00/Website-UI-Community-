@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 
 const Review = () => {
   return (
-    <section className="bg-black text-white py-16 px-8">
+    <section id="fitness-review" className="bg-black text-white py-16 px-8">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6">
           Stories of our <span className="text-yellow-400">Vyayamshala</span> Family

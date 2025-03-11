@@ -2,7 +2,7 @@ import { services } from "../../assets/assets";
 
 const About = () => {
   return (
-    <section className="bg-black text-white py-16 px-8">
+    <section id="fitness-about" className="bg-black text-white py-16 px-8">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         <div>
           {/* <h2 className="text-yellow-400 text-lg font-bold">Services</h2> */}

@@ -29,10 +29,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-black text-white py-16 px-8">
+    <section id='fitness-contact' className="bg-black text-white py-16 px-8">
     <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mt-16 mb-10">
-          What's <span className="text-yellow-400">Stopping</span> you?
+          What&apos;s <span className="text-yellow-400">Stopping</span> you?
         </h2>
       </div>
       
