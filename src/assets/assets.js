@@ -63,6 +63,8 @@ import dog3 from './dog3.png';
 import dog4 from './dog4.png';
 import puppy from './puppy.png';
 
+import coffee_logo from './coffee_logo.png';
+
 export const assets = {
   fitness_logo,
   p1,
@@ -93,6 +95,8 @@ export const assets = {
   pro5,
   pro6,
   puppy,
+
+  coffee_logo,
 };
 
 export const services = [
