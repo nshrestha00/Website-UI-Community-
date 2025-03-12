@@ -65,6 +65,10 @@ import puppy from './puppy.png';
 
 import coffee_logo from './coffee_logo.png';
 import coffee from './coffee.png';
+import coffee_beans from './coffee_beans.png';
+import barista_training from './barista_training.png';
+import bakery_equi from './bakery_equi.png';
+import bakery_item from './bakery_item.png';
 
 export const assets = {
   fitness_logo,
@@ -207,5 +211,28 @@ export const blogData=[
   {
     image:dog1,
     title:'Choose your most stylish and durable products for your dog.',
+  },
+];
+
+export const coffser=[
+  {
+    image:coffee_beans,
+    title:'Neplai Coffee Beans',
+    description:'Himalayan Java offers its customers with locally brewed taste.'
+  },
+  {
+    image:barista_training,
+    title:'Barista Training',
+    description:'Himalayan Java Barista Coffee School was introduced to promote the culture of vocational training in Nepal.'
+  },
+  {
+    image:bakery_equi,
+    title:'Bakery Equipments',
+    description:'Himalayan Java is the sole distributor of various coffee equipment and products in Nepal.'
+  },
+  {
+    image:bakery_item,
+    title:'Fresh Bakery Items',
+    description:'We provide you a wide variety of fresh bakery items.'
   },
 ];
