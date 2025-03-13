@@ -69,6 +69,14 @@ import coffee_beans from './coffee_beans.png';
 import barista_training from './barista_training.png';
 import bakery_equi from './bakery_equi.png';
 import bakery_item from './bakery_item.png';
+import patan from './patan.png';
+import pokhara from './pokhara.png';
+import mandala from './mandala.png';
+import namche from './namche.png';
+import bouddha from './bouddha.png';
+import pashupati from './pashupati.png';
+import thamel from './thamel.png';
+import basantapur from './basantapur.png';
 
 export const assets = {
   fitness_logo,
@@ -235,4 +243,16 @@ export const coffser=[
     title:'Fresh Bakery Items',
     description:'We provide you a wide variety of fresh bakery items.'
   },
+];
+
+export const find=[
+  {image:patan,title:'Patan Durbar Square'},
+  {image:pokhara,title:'Lakeside, Pokhara'},
+  {image:mandala,title:'Mandala Street'},
+  {image:namche,title:'Namche Bazar'},
+  {image:bouddha,title:'Boudhanath Stupa'},
+  {image:pashupati,title:'Pashupatinath Marga'},
+  {image:thamel,title:'Thamel'},
+  {image:basantapur,title:'Basanatapur'},
+
 ];
