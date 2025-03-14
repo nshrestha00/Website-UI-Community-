@@ -77,6 +77,21 @@ import bouddha from './bouddha.png';
 import pashupati from './pashupati.png';
 import thamel from './thamel.png';
 import basantapur from './basantapur.png';
+import americano from './americano.png';
+import cappucino from './cappucino.png';
+import lattecoo from './lattecoo.png';
+import rolls from './rolls.png';
+import icedame from './icedame.png';
+import mocha from './mocha.png';
+import latte from './latte.png';
+import croissant from './croissant.png';
+import cheese_cake from './cheese_cake.png';
+import flat_white from './flat_white.png';
+import frappe from './frappe.png';
+import milk_tea from './milk_tea.png';
+import baugette from './baugette.png';
+import brownie from './brownie.png';
+import matcha from './matcha.png';
 
 export const assets = {
   fitness_logo,
@@ -255,4 +270,82 @@ export const find=[
   {image:thamel,title:'Thamel'},
   {image:basantapur,title:'Basanatapur'},
 
+];
+
+export const menu=[
+  {
+    image:americano,
+    name:'Americano',
+    price:'Rs 150',
+  },
+  {
+    image:cappucino,
+    name:'Cappucino',
+    price:'Rs 185',
+  },
+  {
+    image:lattecoo,
+    name:'Cafe latte with Cookie',
+    price:'Rs 365',
+  },
+  {
+    image:rolls,
+    name:'Rolls',
+    price:'Rs 200',
+  },
+  {
+    image:icedame,
+    name:'Iced Americano',
+    price:'Rs 195',
+  },
+  {
+    image:mocha,
+    name:'Blended Mocha',
+    price:'Rs 315',
+  },
+  {
+    image:latte,
+    name:'Cafe latte',
+    price:'Rs 180',
+  },
+  {
+    image:croissant,
+    name:'Croissant',
+    price:'Rs 120',
+  },
+  {
+    image:cheese_cake,
+    name:'Cheese cake',
+    price:'Rs 300',
+  },
+  {
+    image:flat_white,
+    name:'Flate White',
+    price:'Rs 195',
+  },
+  {
+    image:frappe,
+    name:'Blended Frappe',
+    price:'Rs 280',
+  },
+  {
+    image:milk_tea,
+    name:'Milk Tea',
+    price:'Rs 80',
+  },
+  {
+    image:baugette,
+    name:'Baugette',
+    price:'Rs 120',
+  },
+  {
+    image:brownie,
+    name:'Brownie with icecream',
+    price:'Rs 280',
+  },
+  {
+    image:matcha,
+    name:'Matcha Latte',
+    price:'Rs 350',
+  },
 ];
