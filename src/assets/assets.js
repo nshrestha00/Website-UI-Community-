@@ -94,6 +94,8 @@ import brownie from './brownie.png';
 import matcha from './matcha.png';
 import boy from './boy.png';
 
+import plant_logo from './plant_logo.png';
+
 export const assets = {
   fitness_logo,
   p1,
@@ -128,6 +130,8 @@ export const assets = {
   coffee_logo,
   coffee,
   boy,
+
+  plant_logo,
 };
 
 export const services = [
