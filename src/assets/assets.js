@@ -92,6 +92,7 @@ import milk_tea from './milk_tea.png';
 import baugette from './baugette.png';
 import brownie from './brownie.png';
 import matcha from './matcha.png';
+import boy from './boy.png';
 
 export const assets = {
   fitness_logo,
@@ -126,6 +127,7 @@ export const assets = {
 
   coffee_logo,
   coffee,
+  boy,
 };
 
 export const services = [
