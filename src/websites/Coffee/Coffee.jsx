@@ -1,5 +1,6 @@
 import About from "./About"
 import FindUs from "./FindUs"
+import Footer from "./Footer"
 import Menu from "./Menu"
 import Navbar from "./Navbar"
 import Review from "./Review"
@@ -14,6 +15,7 @@ const Coffee = () => {
     <FindUs/>
     <Menu/>
     <Review/>
+    <Footer/>
     </>
   )
 }
