@@ -104,6 +104,10 @@ import cactus from './cactus.png';
 import indoor_plant from './indoor_plant.png';
 import outdoor_plant from './outdoor_plant.png';
 import leaf from './leaf.png';
+import ivy from './ivy.png';
+import jasmin from './jasmin.png';
+import rosemary from './rosemary.png';
+import gingko from './gingko.png';
 
 export const assets = {
   fitness_logo,
@@ -387,4 +391,11 @@ export const plantServices=[
     title:'Garden Care', 
     description:'We provide you the best assistance regarding your garden'
   },
+];
+
+export const plants=[
+  {image:ivy, name:'Ivy'},
+  {image:jasmin, name:'Jasmin'},
+  {image:rosemary, name:'Rosemary'},
+  {image:gingko, name:'Gingko'},
 ];
