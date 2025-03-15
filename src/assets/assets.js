@@ -96,6 +96,9 @@ import boy from './boy.png';
 
 import plant_logo from './plant_logo.png';
 import aloe_vera from './aloe_vera.png';
+import indoor from './indoor.png';
+import outdoor from './outdoor.png';
+import shovel from './shovel.png';
 
 export const assets = {
   fitness_logo,
@@ -355,5 +358,23 @@ export const menu=[
     image:matcha,
     name:'Matcha Latte',
     price:'Rs 350',
+  },
+];
+
+export const plantServices=[
+  {
+    image:indoor, 
+    title:'Indoor Plant', 
+    description:'Add ambiance to your room with indoor plants'
+  },
+  {
+    image:outdoor, 
+    title:'Outdoor Plant', 
+    description:'Provide a rich look to your balconies'
+  },
+  {
+    image:shovel, 
+    title:'Garden Care', 
+    description:'We provide you the best assistance regarding your garden'
   },
 ];
