@@ -95,6 +95,7 @@ import matcha from './matcha.png';
 import boy from './boy.png';
 
 import plant_logo from './plant_logo.png';
+import aloe_vera from './aloe_vera.png';
 
 export const assets = {
   fitness_logo,
@@ -132,6 +133,7 @@ export const assets = {
   boy,
 
   plant_logo,
+  aloe_vera,
 };
 
 export const services = [
