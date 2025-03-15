@@ -99,6 +99,11 @@ import aloe_vera from './aloe_vera.png';
 import indoor from './indoor.png';
 import outdoor from './outdoor.png';
 import shovel from './shovel.png';
+import hanging from './hanging.png';
+import cactus from './cactus.png';
+import indoor_plant from './indoor_plant.png';
+import outdoor_plant from './outdoor_plant.png';
+import leaf from './leaf.png';
 
 export const assets = {
   fitness_logo,
@@ -137,6 +142,11 @@ export const assets = {
 
   plant_logo,
   aloe_vera,
+  hanging,
+  cactus,
+  indoor_plant,
+  outdoor_plant,
+  leaf,
 };
 
 export const services = [
