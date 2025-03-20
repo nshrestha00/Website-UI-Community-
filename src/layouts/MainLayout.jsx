@@ -10,13 +10,8 @@ function MainLayout({ children }) {
   // State to control visibility of the pagination bar
   const [showPagination, setShowPagination] = useState(false);
 
-  // Timer to hide the pagination bar after inactivity
-  let timeoutId;
-
-  // Redirect root path `/` to `/fitness`
-  if (location.pathname === "/") {
-    return <Navigate to="/fitness" />;
-  }
+  // Timer reference using useRef to avoid reassigning timeoutId on re-renders
+  const timeoutRef = useState(null);
 
   // Find the current index
   const currentIndex = websites.indexOf(location.pathname);
@@ -34,21 +29,24 @@ function MainLayout({ children }) {
   // Show pagination when mouse moves
   const handleMouseMove = () => {
     setShowPagination(true);
-    clearTimeout(timeoutId); // Clear the previous timeout
-    timeoutId = setTimeout(() => {
-      setShowPagination(false); // Hide the pagination after 1 seconds of inactivity
-    }, 1000); // Adjust the timeout duration as needed
+    clearTimeout(timeoutRef.current);
+    timeoutRef.current = setTimeout(() => {
+      setShowPagination(false);
+    }, 1000);
   };
 
   // Add event listener on mount and clean up on unmount
   useEffect(() => {
     window.addEventListener("mousemove", handleMouseMove);
-
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
-      clearTimeout(timeoutId); 
+      clearTimeout(timeoutRef.current);
     };
   }, []);
+
+  if (location.pathname === "/") {
+    return <Navigate to="/fitness" />;
+  }
 
   return (
     <div className="relative min-h-screen pb-16 flex flex-col">
