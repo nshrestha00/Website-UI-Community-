@@ -109,6 +109,11 @@ import jasmin from './jasmin.png';
 import rosemary from './rosemary.png';
 import gingko from './gingko.png';
 
+import open_menu from './open_menu.png';
+import close_menu from './close_menu.png';
+import openMenu from './openMenu.png';
+import closeMenu from './closeMenu.png';
+
 export const assets = {
   fitness_logo,
   p1,
@@ -151,6 +156,11 @@ export const assets = {
   indoor_plant,
   outdoor_plant,
   leaf,
+
+  open_menu,
+  close_menu,
+  openMenu,
+  closeMenu,
 };
 
 export const services = [
